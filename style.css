@@ -1,5 +1,82 @@
 body {
-    font-family: Arial, sans-serif;
-    background: linear-gradient(90deg, #ff4d4d, #ff1493, #1e90ff);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #3498db, #2980b9);
+    color: #ecf0f1;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #2c3e50;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ecf0f1;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+    background-color: #ecf0f1;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #333; /* Change the text color to a dark color */
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+h1, h2, h3 {
+    color: #3498db;
+}
+
+iframe {
+    width: 100%;
+    height: 315px;
+}
+
+.highlight {
+    background-color: greenyellow;
+    padding: 10px;
+    border-radius: 5px;
     color: #fff;
+    text-align: center;
+}
+
+.call-to-action {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.buy-button {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.buy-button:hover {
+    background-color: #2980b9;
 }
